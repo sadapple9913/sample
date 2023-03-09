@@ -1,0 +1,72 @@
+노드부터 다운받고 
+npm install npx -g
+
+npx -v
+
+9.5.0
+
+git bash메뉴
+
+git --version
+
+npx create-react-app ./
+
+npm start
+
+git = 분산관리프로그램
+
+npm install axios 
+
+axios.get('???')
+
+리액트는 component 기반으로 만든 라이브러리
+
+div id wrap  = app component 
+
+header = header component
+
+*함수형 comopnent = rce
+클래스형  comopnent rfce
+
+ comopnent를 만들땐 대문자시작 = App.js
+
+jsx = 자바스크립트 안에서 html 문법을 사용해서 view를 
+
+컴포넌트 이름은 대문자시작 = Link.js
+
+데이터.json
+cakes.json
+
+json파일의 객체에는 ""로 묶어줘야함
+
+props 프로퍼티 : 상위 컴포넌트에서 하위 컴포넌트로 단방향으로 전달되는 읽기 전용 데이터
+
+state : 컴포넌트의 상태 state를 저장하고 변경할수 있는 데이터, 클래스형 컴포넌트에서 사용
+
+props:컴포넌트에서 컴포넌트로 전달하는 데이터 
+
+props이름={"props값" 문자열}
+props이름={props값 변수 또는 bool}
+props이름={props값 배열,,,}
+
+정리 : 부모컴포넌트(App)에서 자식으로만 전달할수있는 단방향
+
+
+json 파일의 속성에는 ""로 묶어줘야한다
+
+axios는 네트워크를 사용함으로 느리다 
+그래서 axios를 별도의 함수로 만들어서 
+자바스크릅트에게 
+이 함수는 시간이 필요하고 (async) 즉 이함수는 비동기 이디ㅏ.
+axsio.get()의 실행 완료를 기다려달라고(await) 알려줘야함.
+
+https://unminify.com/코드 깔끔하게 보는곳
+
+자식이 부모를 기준으로 80%
+(자식px/부모px)*100=80%
+
+SPA(single page application)
+
+router라우터는 사용자가 입력한 URL을 통해 특정 컴포넌트를 불러옴
+
+route는 Routes로 반드시 묶어줘야하고 둘을 묶어주는게 BrowserRouter
